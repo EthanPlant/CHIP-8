@@ -393,7 +393,7 @@ void Chip8::run_opcode()
                     // FX33, LD B, Vx
                     memory[regs.i] = regs.v[(opcode & 0x0F00) >> 8] / 100;
                     memory[regs.i + 1] = (regs.v[(opcode & 0x0F00) >> 8] / 10) % 10;
-                    memory[regs.i + 2] = (regs.v[(opcode & 0x0F00) >> 8] / 100) % 10;
+                    memory[regs.i + 2] = (regs.v[(opcode & 0x0F00) >> 8] % 100) % 10;
                     break;
                 case 0x0055:
                     // FX55, DMP I ,Vx

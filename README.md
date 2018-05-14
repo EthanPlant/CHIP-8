@@ -36,7 +36,9 @@ Run:
 
     $ ./chip8 <ROM file>
     
-Some public domain ROMS can be found in the `roms` directory.
+23 public domain ROMS can be found in the `roms` directory.
+
+[Rom compaitibility list](https://docs.google.com/spreadsheets/d/1-yieuiIF_zLWZBJa7zim8vuR8wYVeWO3ZUuTOS-TD0s/edit?usp=sharing)
 
 ## Resources
 
